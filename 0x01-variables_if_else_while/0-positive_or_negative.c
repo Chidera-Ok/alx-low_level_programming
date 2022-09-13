@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * 
+ *
  * Return: 0
  */
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%i is a positive\n", n);
+		printf("%i is positive\n", n);
 	}
 	else
 	{
@@ -24,7 +24,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%i is a negative\n", n);
+			printf("%i is negative\n", n);
 		}
 	}
 	return (0);
