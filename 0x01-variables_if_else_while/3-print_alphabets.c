@@ -4,18 +4,19 @@
  * main - main block
  *
  * Return: 0
- *
  */
 
 int main(void)
 {
-	char lc;
+	char alp;
 
-	/* lc : lowerr case */
-
-	for (lc = 'a'; lc <= 'z'; lc++)
+	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-		putchar(lc);
+		putchar(alp);
+	}
+	for (alp = 'A'; alp <= 'Z'; alp++)
+	{
+		putchar(alp);
 	}
 	putchar('\n');
 	return (0);
