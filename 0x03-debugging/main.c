@@ -8,16 +8,18 @@
 
 int main(void)
 {
-	        int a, b, c;
-		        int largest;
+	      int month;
+	          int day;
+		      int year;
 
-			        a = 972;
-				        b = -98;
-					        c = 0;
+		          month = 4;
+			      day = 01;
+			          year = 1997;
 
-						        largest = largest_number(a, b, c);
+				      printf("Date: %02d/%02d/%04d\n", month, day, year);
 
-							        printf("%d is the largest number\n", largest);
+				          day = convert_day(month, day);
 
-								        return (0);
+					      print_remaining_days(month, day, year);
+					      return (0);
 }
