@@ -14,7 +14,7 @@ int main(void)
 
 	i = 1;
 	j = 2;
-	sum = i + j;
+	sum = j;
 	for (l = 0; l < 48; l++)
 	{
 		k = i + j;
@@ -22,7 +22,8 @@ int main(void)
 		j = k;
 		if (k > 4000000)
 			break;
-		sum += k;
+		else if (k % 2 == 0)
+			sum += k;
 	}
 	printf("%ld\n", sum);
 	return (0);
