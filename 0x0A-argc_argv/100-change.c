@@ -18,7 +18,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	tmp = atoi(argv[1]);
 	if (tmp < 1)
 		printf("%d\n", 0);
