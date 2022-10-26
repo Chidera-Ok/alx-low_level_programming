@@ -5,7 +5,7 @@
  * sum of all the data (n) of a listint_t linked list.
  * @head: ponter to head
  *
- * Return; sum of the data
+ * Return: sum of the data
  */
 
 int sum_listint(listint_t *head)
